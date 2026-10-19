@@ -1,0 +1,8 @@
+[package]
+name = "ut61e-rust"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+eframe = "0.36.2"
+nix = { version = "0.31.3", features = ["ioctl", "poll"] }
